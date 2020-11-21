@@ -1,0 +1,60 @@
+{
+  "name": "gatsby-typescript-eslint-prettier-starter",
+  "private": true,
+  "description": "A starter to get up and running developing type-safe and style-safe Gatsby",
+  "version": "0.1.0",
+  "author": "Maarten Tielemans <ttielu@gmail.com>",
+  "dependencies": {
+    "gatsby": "2.27.0",
+    "gatsby-image": "2.6.0",
+    "gatsby-plugin-manifest": "2.7.0",
+    "gatsby-plugin-offline": "3.5.0",
+    "gatsby-plugin-react-helmet": "3.5.0",
+    "gatsby-plugin-sharp": "2.9.0",
+    "gatsby-source-filesystem": "2.6.0",
+    "gatsby-transformer-sharp": "2.7.0",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-helmet": "6.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "16.14.0",
+    "@types/react-dom": "16.9.10",
+    "@types/react-helmet": "6.1.0",
+    "@typescript-eslint/eslint-plugin": "4.8.1",
+    "@typescript-eslint/parser": "4.8.1",
+    "eslint": "7.14.0",
+    "eslint-config-airbnb-typescript": "11.4.0",
+    "eslint-config-prettier": "6.15.0",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-react": "7.21.5",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "gatsby-plugin-ts": "2.7.1",
+    "prettier": "2.2.0",
+    "typescript": "4.1.2"
+  },
+  "keywords": [
+    "eslint",
+    "gatsby",
+    "prettier",
+    "typescript"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "serve": "gatsby serve",
+    "start": "npm run develop",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tielem/gatsby-typescript-eslint-prettier-starter"
+  },
+  "bugs": {
+    "url": "https://github.com/Tielem/gatsby-typescript-eslint-prettier-starter/issues"
+  }
+}
